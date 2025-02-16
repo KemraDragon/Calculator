@@ -15,6 +15,8 @@
 		0A549A572D627E77008AC3E0 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A549A562D627E77008AC3E0 /* CalculatorButton.swift */; };
 		0A549A5C2D627F6A008AC3E0 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A549A5B2D627F6A008AC3E0 /* ButtonCell.swift */; };
 		0A549A602D627FB8008AC3E0 /* CalcHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A549A5F2D627FB8008AC3E0 /* CalcHeaderCell.swift */; };
+		0A55BEC12D629B73003DC751 /* CalculatorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BEC02D629B73003DC751 /* CalculatorOperation.swift */; };
+		0A55BEC42D629E78003DC751 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BEC32D629E78003DC751 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		0A549A562D627E77008AC3E0 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 		0A549A5B2D627F6A008AC3E0 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 		0A549A5F2D627FB8008AC3E0 /* CalcHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcHeaderCell.swift; sourceTree = "<group>"; };
+		0A55BEC02D629B73003DC751 /* CalculatorOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorOperation.swift; sourceTree = "<group>"; };
+		0A55BEC32D629E78003DC751 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0A549A562D627E77008AC3E0 /* CalculatorButton.swift */,
+				0A55BEC02D629B73003DC751 /* CalculatorOperation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				0A549A352D627C10008AC3E0 /* AppDelegate.swift */,
 				0A549A372D627C10008AC3E0 /* SceneDelegate.swift */,
 				0A549A3E2D627C11008AC3E0 /* Assets.xcassets */,
+				0A55BEC32D629E78003DC751 /* Extensions.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -166,12 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A549A362D627C10008AC3E0 /* AppDelegate.swift in Sources */,
+				0A55BEC42D629E78003DC751 /* Extensions.swift in Sources */,
 				0A549A502D627D63008AC3E0 /*  CalcControllerViewModel.swift in Sources */,
 				0A549A542D627D9F008AC3E0 /* CalcController.swift in Sources */,
 				0A549A382D627C10008AC3E0 /* SceneDelegate.swift in Sources */,
 				0A549A602D627FB8008AC3E0 /* CalcHeaderCell.swift in Sources */,
 				0A549A572D627E77008AC3E0 /* CalculatorButton.swift in Sources */,
 				0A549A5C2D627F6A008AC3E0 /* ButtonCell.swift in Sources */,
+				0A55BEC12D629B73003DC751 /* CalculatorOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
